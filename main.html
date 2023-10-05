@@ -8,15 +8,38 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<img src="image.jpg">
-	<h1 >Hello Bhaiya</h1>
-	<ul class="role"> List 
-		<li class="role">list 1</li>
-		<li  class="role">list 2</li>
-		<li class="role">list 2</li>
-		<li >list 2</li>
-	</ul>
-	<nav class="role" href="#">Home</nav>
+	   <header>
+        <h1 role="heading">My Portfolio</h1>
+        <nav role="navigation">
+            <ul>
+                <li><a href="#about" role="listitem">About Me</a></li>
+                <li><a href="#projects" role="listitem">Projects</a></li>
+                <li><a href="#contact" role="listitem">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2 role="heading">About Me</h2>
+            <img src="profile.jpg" alt="My Profile Picture" role="img">
+            <p>Hi, I'm John. I'm a web developer passionate about creating accessible websites.</p>
+        </section>
+
+        <section id="projects">
+            <h2 role="heading">Projects</h2>
+            <ul role="list">
+                <li role="listitem">Project 1: Portfolio Website</li>
+                <li role="listitem">Project 2: Accessible Blog</li>
+                <li role="listitem">Project 3: E-commerce Website</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2 role="heading">Contact</h2>
+            <p>You can reach me at <a href="mailto:contact@example.com">contact@example.com</a></p>
+        </section>
+    </main>
 	
     <script type="text/javascript" src="./script.js">
 </script>
